@@ -1,3 +1,7 @@
 #!/usr/bin/python3
-for i in range(ord('z'), ord('a') -1, -2):
-    print("{}{}".format(chr(i), chr(i -33)), end='')
+# Author - Godswill Kalu
+
+i = 0
+for c in range(ord('z'), ord('a') - 1, -1):
+    print("{}".format(chr(c - i)), end="")
+    i = 32 if i == 0 else 0
