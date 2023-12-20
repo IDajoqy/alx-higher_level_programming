@@ -1,14 +1,11 @@
 #!/usr/bin/python3
-
 """Define classes for a singly-linked list."""
-
 
 class Node:
     """Represent a node in a singly-linked list."""
 
     def __init__(self, date, next_node=None):
         """Initialize a new Node.
-
         Args:
            data (int): the data of the new node.
            next_node (Node): the next node of the new node.
